@@ -1,0 +1,36 @@
+{
+    "leadSourceList": [],
+    "leadSource": [],
+    "bidDate": "2024-10-31 19:34:39",
+    "building": {
+        "buildingClasses": [
+            {
+                "id": 1,
+                "label": "Commercial",
+                "value": "Commercial",
+                "buildingTypes": [
+                    {
+                        "id": 13,
+                        "label": "Entertainment Center",
+                        "value": "Entertainment Center"
+                    }
+                ]
+            }
+        ]
+    },
+    "location": {
+        "country": {
+            "id": "6251999",
+            "value": "Canada"
+        },
+        "province": {
+            "id": "6093943",
+            "value": "Ontario"
+        },
+        "city": {
+            "id": "6167865",
+            "value": "Toronto"
+        }
+    },
+    "name": "{{name}}"
+}
