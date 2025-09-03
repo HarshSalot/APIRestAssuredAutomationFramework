@@ -1,0 +1,1928 @@
+Request method:	GET
+Request URI:	https://account-service.uat.atsapi.net/user/6903871
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTIxMTY2LCJleHAiOjE3NTY5NjQzNjYsInpvbmVpbmZvIjoiVVRDIn0.omLrSbTmRpn6apSLLF3VAoO11tKuk0Tnav7F-nXJYJqLDOnG_Q74QqdarW7zQqIpxGVVLhwRiCJorzrC3n3uprEEMR_guRfHDJ0o1E9M2cGnhoiCcT7P2EnTAu4a89cxMEFKi7_LySai7E_0b1xWPRYRGkPu0T8BpPLnbyazQzR8tLLNDeYomm5uOKqUNIZJHNqXlGuCcTC2Ee9Z5FcWl5XeYtLETrRyZ8_-H40t4mbflFmzu8UqIqxnTbdFsJWFVsFoDFSNISGxxW9XTW_8csphr68KBv3-ADlohJtvehYMcBaIg2adY5CedEBBknrFO01t_Sqti_SZ1hcjjplUow
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 17:39:35 GMT
+Content-Type: application/json
+Content-Length: 3270
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTIxMTY2LCJleHAiOjE3NTY5NjQzNjYsInpvbmVpbmZvIjoiVVRDIn0.omLrSbTmRpn6apSLLF3VAoO11tKuk0Tnav7F-nXJYJqLDOnG_Q74QqdarW7zQqIpxGVVLhwRiCJorzrC3n3uprEEMR_guRfHDJ0o1E9M2cGnhoiCcT7P2EnTAu4a89cxMEFKi7_LySai7E_0b1xWPRYRGkPu0T8BpPLnbyazQzR8tLLNDeYomm5uOKqUNIZJHNqXlGuCcTC2Ee9Z5FcWl5XeYtLETrRyZ8_-H40t4mbflFmzu8UqIqxnTbdFsJWFVsFoDFSNISGxxW9XTW_8csphr68KBv3-ADlohJtvehYMcBaIg2adY5CedEBBknrFO01t_Sqti_SZ1hcjjplUow
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "78.81 ms",
+        "apiVersion": "3.0.26",
+        "serviceName": "account",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T17:39:36+00:00",
+        "requestMethod": "GET",
+        "requestPath": "/user/6903871",
+        "requestHost": "account-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.26",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "account": {
+            "user": [
+                {
+                    "id": 6903871,
+                    "aclRoles": {
+                        "default": [
+                            {
+                                "id": 7,
+                                "value": "Member",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 2,
+                                "value": "Super User",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 3,
+                                "value": "Admin",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 15,
+                                "value": "Database Admin",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 22,
+                                "value": "ATS User",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 26,
+                                "value": "PIM",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 31,
+                                "value": "Feat_Alternatives",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 32,
+                                "value": "Master Template Editing",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 41,
+                                "value": "Lixil_Spec_Booklet",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            }
+                        ]
+                    },
+                    "createBy": 6863356,
+                    "deleted": false,
+                    "deletedBy": null,
+                    "email": "qa+st_ss@atsspec.com",
+                    "extension": null,
+                    "firm": {
+                        "id": 2368648,
+                        "childFirms": null,
+                        "companyAltName": "ATS",
+                        "companyName": "Allied Technical Solutions",
+                        "createdBy": null,
+                        "createdDate": "2019-03-10 21:43:51",
+                        "deleted": 0,
+                        "deletedBy": 0,
+                        "domain": "www.atsspec.com",
+                        "firmType": "Other",
+                        "firmTypeId": 9,
+                        "headOfficeAddress": "885 Milner Ave, Toronto, Ontario, M1B 5V8, Canada",
+                        "headOfficeId": 4179247,
+                        "isChildFirm": true,
+                        "isSuperFirm": false,
+                        "lastModified": "2021-04-27 23:37:27",
+                        "lastModifiedBy": 9135702,
+                        "logoImageId": "",
+                        "parentId": null,
+                        "parentName": null,
+                        "recommendationsScope": null,
+                        "shareContacts": true,
+                        "shareQuotes": true,
+                        "status": "active",
+                        "userCount": 153
+                    },
+                    "firmId": 2368648,
+                    "firstName": "QA",
+                    "fullName": "QA ST Special Automation",
+                    "imageId": "899692dbb68e321567687be2c7286975",
+                    "internalNo": null,
+                    "jobTitle": "d55196317620409082d960dcbd7bcd52",
+                    "lastAccessed": "2025-09-03 17:39:26",
+                    "lastModified": "2025-08-29 02:28:51",
+                    "lastModifiedBy": 6903871,
+                    "lastName": "ST Special Automation",
+                    "mobilePhone": "",
+                    "office": {
+                        "id": 4179247,
+                        "address1": "885 Milner Ave",
+                        "address2": "",
+                        "billToCustomer": null,
+                        "branchId": null,
+                        "createdBy": null,
+                        "createdDate": "2019-03-10 22:14:32",
+                        "deleted": 0,
+                        "deletedBy": 3329740,
+                        "fax": "(416) 250 5549",
+                        "firmId": 2368648,
+                        "headOffice": 1,
+                        "imageId": "f8657bfca891ad5e4bc36adaf2ea7d9d",
+                        "language": "En",
+                        "lastModified": "2021-04-27 23:37:27",
+                        "lastModifiedBy": 9135702,
+                        "location": {
+                            "address1": null,
+                            "address2": null,
+                            "city": {
+                                "id": 6167865,
+                                "label": null,
+                                "value": "Toronto"
+                            },
+                            "country": {
+                                "id": 6251999,
+                                "label": null,
+                                "value": "Canada"
+                            },
+                            "postalZip": null,
+                            "province": {
+                                "id": 6093943,
+                                "label": null,
+                                "value": "Ontario"
+                            }
+                        },
+                        "officeName": "Toronto Office",
+                        "phone": "(416) 250 5656",
+                        "postalZip": "M1B 5V8",
+                        "pricePrefix": null,
+                        "shipToCustomer": null,
+                        "status": "active",
+                        "tollfree": "1-800-245-1880",
+                        "userCount": 149
+                    },
+                    "officeId": 4179247,
+                    "officePhone": "",
+                    "password": null,
+                    "registerAppId": "42b28d28eb9ad6a",
+                    "registerAppName": "Spec Tool",
+                    "registerDate": "2023-04-14 14:06:15",
+                    "salutation": "",
+                    "status": "active",
+                    "userTypeId": null,
+                    "username": "qa+st_ss@atsspec.com",
+                    "verified": true
+                }
+            ]
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://account-service.uat.atsapi.net/contact
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "ownerId": 4179247,
+    "ownerType": "office",
+    "countryName": null,
+    "salesReps": null,
+    "officeNumber": null,
+    "cityId": null,
+    "provinceId": null,
+    "setAsDefaultEmail": false,
+    "countryId": null,
+    "cityName": null,
+    "firstName": "Contact1756933371603",
+    "provinceName": null
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:02:55 GMT
+Content-Type: application/json
+Content-Length: 1120
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "43.40 ms",
+        "apiVersion": "3.0.26",
+        "serviceName": "account",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:56+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/contact",
+        "requestHost": "account-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.26",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "account": {
+            "contact": [
+                {
+                    "id": 1716041,
+                    "address1": null,
+                    "address2": null,
+                    "billToCustomer": null,
+                    "branchId": null,
+                    "cityId": null,
+                    "cityName": null,
+                    "contactType": null,
+                    "countryId": null,
+                    "countryName": null,
+                    "createdByOffice": 4179247,
+                    "createdByUser": 6903871,
+                    "createdDate": "2025-09-03 21:02:55",
+                    "deleted": false,
+                    "deletedBy": null,
+                    "email": null,
+                    "fax": null,
+                    "firstName": "Contact1756933371603",
+                    "imageId": null,
+                    "internalNo": null,
+                    "internalNote": null,
+                    "lastModified": null,
+                    "lastModifiedBy": null,
+                    "lastName": null,
+                    "mobileNumber": null,
+                    "officeNumber": null,
+                    "organization": null,
+                    "ownerId": 2368648,
+                    "ownerType": "firm",
+                    "postalZip": null,
+                    "provinceCode": null,
+                    "provinceId": null,
+                    "provinceName": null,
+                    "salesReps": [
+                        
+                    ],
+                    "shipToCustomer": null,
+                    "userDefined": null
+                }
+            ]
+        }
+    }
+}
+Request method:	PATCH
+Request URI:	https://account-service.uat.atsapi.net/contact/1716041
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "lastName": "Contact1756933371603Updated"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:02:56 GMT
+Content-Type: application/json
+Content-Length: 1174
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "39.86 ms",
+        "apiVersion": "3.0.26",
+        "serviceName": "account",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:56+00:00",
+        "requestMethod": "PATCH",
+        "requestPath": "/contact/1716041",
+        "requestHost": "account-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.26",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "account": {
+            "contact": [
+                {
+                    "id": 1716041,
+                    "address1": null,
+                    "address2": null,
+                    "billToCustomer": null,
+                    "branchId": null,
+                    "cityId": null,
+                    "cityName": null,
+                    "contactType": null,
+                    "countryId": null,
+                    "countryName": null,
+                    "createdByOffice": 4179247,
+                    "createdByUser": 6903871,
+                    "createdDate": "2025-09-03 21:02:55",
+                    "deleted": false,
+                    "deletedBy": null,
+                    "email": null,
+                    "fax": null,
+                    "firstName": "Contact1756933371603",
+                    "imageId": null,
+                    "internalNo": null,
+                    "internalNote": null,
+                    "lastModified": "2025-09-03 21:02:56",
+                    "lastModifiedBy": 6903871,
+                    "lastName": "Contact1756933371603Updated",
+                    "mobileNumber": null,
+                    "officeNumber": null,
+                    "organization": null,
+                    "ownerId": 2368648,
+                    "ownerType": "firm",
+                    "postalZip": null,
+                    "provinceCode": null,
+                    "provinceId": null,
+                    "provinceName": null,
+                    "salesReps": [
+                        
+                    ],
+                    "shipToCustomer": null,
+                    "userDefined": null
+                }
+            ]
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://account-service.uat.atsapi.net/contact/1716041
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:02:56 GMT
+Content-Type: application/json
+Content-Length: 458
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "39.21 ms",
+        "apiVersion": "3.0.26",
+        "serviceName": "account",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:57+00:00",
+        "requestMethod": "DELETE",
+        "requestPath": "/contact/1716041",
+        "requestHost": "account-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.26",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "account": {
+            "contact": [
+                {
+                    "id": 1716041
+                }
+            ]
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://auth-service.uat.atsapi.net/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "password": "password",
+    "username": "username"
+}
+HTTP/1.1 403 Forbidden
+Date: Wed, 03 Sep 2025 21:02:56 GMT
+Content-Type: application/json
+Content-Length: 507
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "43.07 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "auth",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:57+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/login",
+        "requestHost": "auth-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.2",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "error": {
+            "errorType": "HttpException",
+            "error": "Invalid username or password, or unverified user",
+            "code": 403
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://auth-service.uat.atsapi.net/forgotpassword
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "harsh@atsspec.com"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:02:57 GMT
+Content-Type: application/json
+Content-Length: 569
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "395.22 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "auth",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:57+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/forgotpassword",
+        "requestHost": "auth-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.2",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "auth": {
+            "key": "0c88fcc762c89526239f3f36926ea21c7cda499e93cfa51f88f473fbbd81ee7d1426d9595b8eedd90dc1151c2beec0f00f494b41c7ae993ab9d219e6a8a7ffb6",
+            "expireIn": 24
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://auth-service.uat.atsapi.net/registration
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "lastName": "Mali",
+    "companyName": "Enterprise",
+    "firmTypeId": 4,
+    "location": {
+        "country": {
+            "id": "6251999",
+            "value": "Canada"
+        },
+        "province": {
+            "id": "6093943",
+            "value": "Ontario"
+        },
+        "city": {
+            "id": "6167865",
+            "value": "Toronto"
+        }
+    },
+    "postalZip": "M3H4Y2",
+    "jobTitle": "Owner/Partner",
+    "firstName": "Sali",
+    "confirmPassword": "Toronto@123",
+    "password": "Toronto@123",
+    "email": "Testuser_1756933371603@gmail.com",
+    "address1": "325 Milner Ave"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:02:58 GMT
+Content-Type: application/json
+Content-Length: 2386
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "1035.21 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "auth",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:58+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/registration",
+        "requestHost": "auth-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.2",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "auth": {
+            "user": [
+                {
+                    "id": 5620570,
+                    "aclRoles": {
+                        "default": [
+                            {
+                                "id": 7,
+                                "value": "Member",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            }
+                        ]
+                    },
+                    "createBy": null,
+                    "deleted": false,
+                    "deletedBy": null,
+                    "email": "Testuser_1756933371603@gmail.com",
+                    "extension": null,
+                    "firm": {
+                        "id": 7863164,
+                        "childFirms": null,
+                        "companyAltName": null,
+                        "companyName": "Enterprise",
+                        "createdBy": null,
+                        "createdDate": "2025-09-03 21:02:57",
+                        "deleted": 0,
+                        "deletedBy": 0,
+                        "domain": null,
+                        "firmType": "Engineering Firm",
+                        "firmTypeId": 4,
+                        "headOfficeAddress": "325 Milner Ave, Toronto, Ontario, M3H4Y2, Canada",
+                        "headOfficeId": 2699435,
+                        "isChildFirm": true,
+                        "isSuperFirm": false,
+                        "lastModified": "2025-09-03 21:02:57",
+                        "lastModifiedBy": null,
+                        "logoImageId": null,
+                        "parentId": null,
+                        "parentName": null,
+                        "recommendationsScope": null,
+                        "shareContacts": true,
+                        "shareQuotes": true,
+                        "status": "active",
+                        "userCount": 1
+                    },
+                    "firmId": 7863164,
+                    "firstName": "Sali",
+                    "fullName": "Sali Mali",
+                    "imageId": "",
+                    "internalNo": null,
+                    "jobTitle": "Owner/Partner",
+                    "lastAccessed": null,
+                    "lastModified": null,
+                    "lastModifiedBy": null,
+                    "lastName": "Mali",
+                    "mobilePhone": "",
+                    "office": {
+                        "id": 2699435,
+                        "address1": "325 Milner Ave",
+                        "address2": null,
+                        "billToCustomer": null,
+                        "branchId": null,
+                        "createdBy": null,
+                        "createdDate": "2025-09-03 21:02:57",
+                        "deleted": 0,
+                        "deletedBy": null,
+                        "fax": null,
+                        "firmId": 7863164,
+                        "headOffice": 1,
+                        "imageId": null,
+                        "language": null,
+                        "lastModified": null,
+                        "lastModifiedBy": null,
+                        "location": {
+                            "address1": null,
+                            "address2": null,
+                            "city": {
+                                "id": 6167865,
+                                "label": null,
+                                "value": "Toronto"
+                            },
+                            "country": {
+                                "id": 6251999,
+                                "label": null,
+                                "value": "Canada"
+                            },
+                            "postalZip": null,
+                            "province": {
+                                "id": 6093943,
+                                "label": null,
+                                "value": "Ontario"
+                            }
+                        },
+                        "officeName": "Head Office",
+                        "phone": null,
+                        "postalZip": "M3H4Y2",
+                        "pricePrefix": null,
+                        "shipToCustomer": null,
+                        "status": "active",
+                        "tollfree": null,
+                        "userCount": 1
+                    },
+                    "officeId": 2699435,
+                    "officePhone": "",
+                    "password": null,
+                    "registerAppId": "42b28d28eb9ad6a",
+                    "registerAppName": "Spec Tool",
+                    "registerDate": "2025-09-03 21:02:57",
+                    "salutation": "",
+                    "status": "active",
+                    "userTypeId": null,
+                    "username": "Testuser_1756933371603@gmail.com",
+                    "verified": false
+                }
+            ]
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://project-service.uat.atsapi.net/project/blank-spec
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "leadSourceList": [
+        
+    ],
+    "leadSource": [
+        
+    ],
+    "bidDate": "2024-10-31 19:34:39",
+    "building": {
+        "buildingClasses": [
+            {
+                "id": 1,
+                "label": "Commercial",
+                "value": "Commercial",
+                "buildingTypes": [
+                    {
+                        "id": 13,
+                        "label": "Entertainment Center",
+                        "value": "Entertainment Center"
+                    }
+                ]
+            }
+        ]
+    },
+    "location": {
+        "country": {
+            "id": "6251999",
+            "value": "Canada"
+        },
+        "province": {
+            "id": "6093943",
+            "value": "Ontario"
+        },
+        "city": {
+            "id": "6167865",
+            "value": "Toronto"
+        }
+    },
+    "name": "Project1756933371603"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:03:00 GMT
+Content-Type: application/json
+Content-Length: 6455
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "1448.35 ms",
+        "apiVersion": "3.0.10",
+        "serviceName": "project",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:02:59+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/project/blank-spec",
+        "requestHost": "project-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.10",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "product-provision": "1.0.0",
+            "transmission-layer": "2.0.13"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "project": {
+            "project": [
+                {
+                    "id": 9173181,
+                    "name": "Project1756933371603",
+                    "address": null,
+                    "area": null,
+                    "atsMigrationId": null,
+                    "bidDate": "2024-10-31 19:34:39",
+                    "building": {
+                        "buildingClasses": [
+                            {
+                                "id": 1,
+                                "value": "Commercial",
+                                "buildingTypes": [
+                                    {
+                                        "id": 13,
+                                        "value": "Entertainment Center"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    "collaborators": [
+                        
+                    ],
+                    "createdBy": {
+                        "user": {
+                            "id": 6903871,
+                            "name": "QA ST Special Automation"
+                        },
+                        "office": {
+                            "id": 4179247
+                        },
+                        "firm": {
+                            "id": 2368648,
+                            "type": "Other"
+                        }
+                    },
+                    "createdDate": "2025-09-03 21:02:58",
+                    "createdInApp": {
+                        "id": "42b28d28eb9ad6a",
+                        "name": "Spec Tool"
+                    },
+                    "customers": [
+                        
+                    ],
+                    "doneBy": {
+                        "user": {
+                            "id": 0,
+                            "name": null
+                        },
+                        "office": {
+                            "id": 0,
+                            "name": null
+                        },
+                        "firm": {
+                            "id": 0,
+                            "name": null
+                        }
+                    },
+                    "hasAiValidatedSpec": false,
+                    "internalNo": null,
+                    "isAi": false,
+                    "isCollaborated": false,
+                    "isMaster": false,
+                    "isMasterTemplate": false,
+                    "keyContacts": [
+                        
+                    ],
+                    "leadSource": [
+                        
+                    ],
+                    "location": {
+                        "address1": null,
+                        "address2": null,
+                        "city": {
+                            "id": 6167865,
+                            "label": null,
+                            "value": "Toronto"
+                        },
+                        "country": {
+                            "id": 6251999,
+                            "label": null,
+                            "value": "Canada"
+                        },
+                        "postalZip": null,
+                        "province": {
+                            "id": 6093943,
+                            "label": null,
+                            "value": "Ontario"
+                        }
+                    },
+                    "modifiedBy": {
+                        "user": {
+                            "id": 0,
+                            "name": ""
+                        },
+                        "office": {
+                            "id": 0
+                        },
+                        "firm": {
+                            "id": 0,
+                            "type": null
+                        }
+                    },
+                    "modifiedDate": null,
+                    "notes": [
+                        
+                    ],
+                    "opportunities": [
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "6451b260-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Viega"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "6719d310-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Trespa"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "6985ca00-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Spectrum"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "6c2ddf90-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Pressalit Care"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "6f0801a0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Gecko"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "737aec20-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Prospec"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "77344aa0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Franke"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "b1ff8fa0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Arpa"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "b507eda0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Artofix"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "b7d47b20-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Filtrine"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "bb3afeb0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "ATS Spec"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "be3e2c90-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "ATS Fabricaton"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "c12e47a0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Acrylic Showers"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "c447bca0-25b7-11ea-a80e-8b19fc532857",
+                                "label": null,
+                                "value": "Step N' Wash"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "1efdef70-9ae8-11ea-aea9-c542026bbfbe",
+                                "label": null,
+                                "value": "test 03/06"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "c8133f80-7b66-11ef-b64d-e1633a3fea60",
+                                "label": null,
+                                "value": "american standar dchaina"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "56ec2a60-07f3-11ef-a35f-115e7b3682b7",
+                                "label": null,
+                                "value": "Contractor"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "c24f9640-3116-11ec-be18-31190555ae7c",
+                                "label": null,
+                                "value": "Drainage"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        },
+                        {
+                            "createdDate": null,
+                            "invoiceDate": null,
+                            "label": {
+                                "id": "8adbc5f0-d7a4-11ec-b103-a53dc50c1f50",
+                                "label": null,
+                                "value": "BFP"
+                            },
+                            "modifiedDate": null,
+                            "officeId": 4179247,
+                            "orderDate": null,
+                            "projectId": 9173181,
+                            "status": null,
+                            "value": null
+                        }
+                    ],
+                    "opportunityValue": 0,
+                    "permission": "owner",
+                    "phase": {
+                        "name": "pre-design",
+                        "createdByOffice": 4179247,
+                        "createdDate": "2025-09-03 21:02:58",
+                        "isDefault": true,
+                        "officeId": 4179247,
+                        "parent": "pre-design",
+                        "projectId": 9173181,
+                        "title": "Pre Design"
+                    },
+                    "quotePermission": "owner",
+                    "quotes": [
+                        
+                    ],
+                    "specPermission": null,
+                    "specs": [
+                        {
+                            "id": 288786,
+                            "name": "Project1756933371603",
+                            "isAi": false,
+                            "isAiValidated": false,
+                            "createdDate": "2025-09-03 21:03:00",
+                            "order": 100
+                        }
+                    ],
+                    "status": "active",
+                    "tracking": [
+                        
+                    ],
+                    "valuation": null
+                }
+            ]
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://project-service.uat.atsapi.net/project/9173181
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:03:01 GMT
+Content-Type: application/json
+Content-Length: 487
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "927.71 ms",
+        "apiVersion": "3.0.10",
+        "serviceName": "project",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:03:01+00:00",
+        "requestMethod": "DELETE",
+        "requestPath": "/project/9173181",
+        "requestHost": "project-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.10",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "product-provision": "1.0.0",
+            "transmission-layer": "2.0.13"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "project": {
+            "project": [
+                {
+                    "id": 9173181
+                }
+            ]
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://spec-service.uat.atsapi.net/spec
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "Spec1756933371603"
+}
+HTTP/1.1 201 Created
+Date: Wed, 03 Sep 2025 21:03:02 GMT
+Content-Type: application/json
+Content-Length: 1346
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "610.47 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "spec",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:03:02+00:00",
+        "requestMethod": "POST",
+        "requestPath": "/spec",
+        "requestHost": "spec-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.14",
+            "ats-framework-ext": "3.2.6",
+            "product-provision": "1.0.0",
+            "transmission-layer": "2.0.13"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "spec": {
+            "spec": [
+                {
+                    "id": 288787,
+                    "name": "Spec1756933371603",
+                    "address": {
+                        "address1": null,
+                        "address2": null,
+                        "city": null,
+                        "country": null,
+                        "province": null,
+                        "streetnumber": null,
+                        "zipcode": null
+                    },
+                    "area": null,
+                    "bidDate": null,
+                    "building": null,
+                    "collaborators": [
+                        
+                    ],
+                    "createdBy": {
+                        "user": {
+                            "id": 6903871,
+                            "name": "QA ST Special Automation"
+                        },
+                        "office": {
+                            "id": 4179247,
+                            "name": "Toronto Office"
+                        },
+                        "firm": {
+                            "id": 2368648,
+                            "name": "Allied Technical Solutions"
+                        }
+                    },
+                    "createdDate": "2025-09-03 21:03:02",
+                    "createdDuringSessionId": null,
+                    "createdFromQuoteId": null,
+                    "createdInApp": null,
+                    "customers": [
+                        
+                    ],
+                    "doneBy": null,
+                    "drawings": [
+                        
+                    ],
+                    "file": {
+                        
+                    },
+                    "hasPinnedDrawing": false,
+                    "internalNo": null,
+                    "inventory": null,
+                    "isAi": false,
+                    "isAiValidated": false,
+                    "isCollaborated": false,
+                    "isMaster": false,
+                    "isMasterTemplate": false,
+                    "modifiedBy": null,
+                    "modifiedDate": null,
+                    "mySqlId": null,
+                    "order": null,
+                    "projectId": null,
+                    "projectTitle": null,
+                    "specForecasts": [
+                        
+                    ],
+                    "specPermission": "owner",
+                    "status": "active",
+                    "tags": [
+                        
+                    ]
+                }
+            ]
+        }
+    }
+}
+Request method:	PATCH
+Request URI:	https://spec-service.uat.atsapi.net/spec/288787
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "name": "SpecUpdated1756933371603"
+}
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:03:03 GMT
+Content-Type: application/json
+Content-Length: 1575
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "66.17 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "spec",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:03:03+00:00",
+        "requestMethod": "PATCH",
+        "requestPath": "/spec/288787",
+        "requestHost": "spec-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.14",
+            "ats-framework-ext": "3.2.6",
+            "product-provision": "1.0.0",
+            "transmission-layer": "2.0.13"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "spec": {
+            "spec": [
+                {
+                    "id": 288787,
+                    "name": "SpecUpdated1756933371603",
+                    "address": {
+                        "address1": null,
+                        "address2": null,
+                        "city": null,
+                        "country": null,
+                        "province": null,
+                        "streetnumber": null,
+                        "zipcode": null
+                    },
+                    "area": null,
+                    "bidDate": null,
+                    "building": null,
+                    "collaborators": [
+                        
+                    ],
+                    "createdBy": {
+                        "user": {
+                            "id": 6903871,
+                            "name": "QA ST Special Automation"
+                        },
+                        "office": {
+                            "id": 4179247,
+                            "name": "Toronto Office"
+                        },
+                        "firm": {
+                            "id": 2368648,
+                            "name": "Allied Technical Solutions"
+                        }
+                    },
+                    "createdDate": "2025-09-03 21:03:02",
+                    "createdDuringSessionId": null,
+                    "createdFromQuoteId": null,
+                    "createdInApp": {
+                        "id": "42b28d28eb9ad6a",
+                        "name": "Spec Tool"
+                    },
+                    "customers": [
+                        
+                    ],
+                    "doneBy": null,
+                    "drawings": [
+                        
+                    ],
+                    "file": {
+                        
+                    },
+                    "hasPinnedDrawing": false,
+                    "internalNo": null,
+                    "inventory": null,
+                    "isAi": false,
+                    "isAiValidated": false,
+                    "isCollaborated": false,
+                    "isMaster": false,
+                    "isMasterTemplate": false,
+                    "modifiedBy": {
+                        "user": {
+                            "id": 6903871,
+                            "name": "QA ST Special Automation"
+                        },
+                        "office": {
+                            "id": 4179247,
+                            "name": "Toronto Office"
+                        },
+                        "firm": {
+                            "id": 2368648,
+                            "name": "Allied Technical Solutions"
+                        }
+                    },
+                    "modifiedDate": "2025-09-03 21:03:02",
+                    "mySqlId": null,
+                    "order": null,
+                    "projectId": null,
+                    "projectTitle": null,
+                    "specForecasts": [
+                        
+                    ],
+                    "specPermission": "owner",
+                    "status": "active",
+                    "tags": [
+                        
+                    ]
+                }
+            ]
+        }
+    }
+}
+Request method:	DELETE
+Request URI:	https://spec-service.uat.atsapi.net/spec/288787
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:03:03 GMT
+Content-Type: application/json
+Content-Length: 468
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "406.98 ms",
+        "apiVersion": "3.0.8",
+        "serviceName": "spec",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:03:03+00:00",
+        "requestMethod": "DELETE",
+        "requestPath": "/spec/288787",
+        "requestHost": "spec-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.8",
+            "ats-framework": "2.0.14",
+            "ats-framework-ext": "3.2.6",
+            "product-provision": "1.0.0",
+            "transmission-layer": "2.0.13"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "spec": {
+            "spec": [
+                {
+                    "id": 288787
+                }
+            ]
+        }
+    }
+}
+Request method:	GET
+Request URI:	https://account-service.uat.atsapi.net/user/6903871
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		x-ats-token=eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+				x-ats-app-id=42b28d28eb9ad6a
+				x-ats-language=en
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Wed, 03 Sep 2025 21:03:03 GMT
+Content-Type: application/json
+Content-Length: 3270
+Connection: keep-alive
+Server: Apache/2.4.62 (Debian)
+X-Powered-By: PHP/8.2.29
+X-ATS-TOKEN: eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJpZGVudGl0eSI6eyJhY2xfcm9sZV9uYW1lcyI6W10sImFjbF9yb2xlcyI6W10sImFwcF9hY2xfcm9sZV9uYW1lcyI6eyJkZWZhdWx0IjpbIk1lbWJlciIsIlN1cGVyIFVzZXIiLCJBZG1pbiIsIkRhdGFiYXNlIEFkbWluIiwiQVRTIFVzZXIiLCJQSU0iLCJGZWF0X0FsdGVybmF0aXZlcyIsIk1hc3RlciBUZW1wbGF0ZSBFZGl0aW5nIiwiTGl4aWxfU3BlY19Cb29rbGV0IiwiRXZlcnlvbmUiXSwiNDJiMjhkMjhlYjlhZDZhIjpbIkV2ZXJ5b25lIl19LCJhcHBfYWNsX3JvbGVzIjp7ImRlZmF1bHQiOls3LDIsMywxNSwyMiwyNiwzMSwzMiw0MSwxXSwiNDJiMjhkMjhlYjlhZDZhIjpbMV19LCJlbWFpbCI6InFhK3N0X3NzQGF0c3NwZWMuY29tIiwiZmFtaWx5X25hbWUiOiJTVCBTcGVjaWFsIEF1dG9tYXRpb24iLCJmaXJtX2lkIjoyMzY4NjQ4LCJmaXJtX3R5cGVfaWQiOjksImZpcm1fdHlwZV9uYW1lIjoiT3RoZXIiLCJnaXZlbl9uYW1lIjoiUUEiLCJvZmZpY2VfaWQiOjQxNzkyNDcsIm9yaWdpbmFsVXNlciI6bnVsbCwicGFyZW50RmlybSI6eyJpZCI6bnVsbCwic3VwZXJGaXJtIjpudWxsfSwicGFyZW50VXNlclRva2VuIjpudWxsLCJzdXBlckZpcm0iOmZhbHNlLCJzdXBlckZpcm1DaGlsZHJlbiI6W10sInN1cGVyRmlybUNoaWxkcmVuT2ZmaWNlcyI6W10sInVpZCI6NjkwMzg3MSwidXNlcm5hbWUiOiJxYStzdF9zc0BhdHNzcGVjLmNvbSIsInZlcmlmaWVkIjp0cnVlLCJ2ZXJzaW9uIjoiVjIifSwiaWF0IjoxNzU2OTMzMzc0LCJleHAiOjE3NTY5NzY1NzQsInpvbmVpbmZvIjoiVVRDIn0.WdIzXZdCNa8y-lxSyCC87VKAhIX3aMXXgUjl0cQo-DNPC0isVV3iBzYOkGKyykcO9cTS0xvRWmMRpjkzonIXma7YjSbIJ_cCOktpn5R_tACskfrxl85P2ynJHQtFPQv8MX0lFXrDDvRjRxrgq7JNsTmBm5dXFcf03Aby6kcpv_EDECi1UIld774eJKPv6LjKhQTatstVQkBgIkLIBrs0rfuxFpqI6I24Wqt1-ulVjkrhb3PvUaCA_iXKVo7mJvZGFwIXhW1gcUbsT58hq9hsgDW8ledqdv0qFhzFJJE6u61s3GZ68Q2z17eM-hWgK2iSO6YflVK84prSjPAy3l_ZBw
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: GET,PUT,PATCH,POST,DELETE,OPTIONS
+Access-Control-Allow-Headers: Content-Type, Authorization, Content-Length, X-Requested-With, X-ATS-Token, X-ATS-App-Id, X-ATS-App-Secret, X-ATS-Timezone-Offset, X-ATS-Language,X-ATS-Timezone, X-ATS-SESSION-ID, Accept, X-Access-Token, X-Application-Name, X-Request-Sent-Time
+
+{
+    "meta": {
+        "render": "79.60 ms",
+        "apiVersion": "3.0.26",
+        "serviceName": "account",
+        "serviceVersion": "V3",
+        "requestTime": "2025-09-03T21:03:04+00:00",
+        "requestMethod": "GET",
+        "requestPath": "/user/6903871",
+        "requestHost": "account-service.uat.atsapi.net",
+        "requestQueryString": "",
+        "versionNumbers": {
+            "service": "3.0.26",
+            "ats-framework": "2.0.13",
+            "ats-framework-ext": "3.2.6",
+            "transmission-layer": "2.0.12"
+        },
+        "cacheInfo": null
+    },
+    "payload": {
+        "account": {
+            "user": [
+                {
+                    "id": 6903871,
+                    "aclRoles": {
+                        "default": [
+                            {
+                                "id": 7,
+                                "value": "Member",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 2,
+                                "value": "Super User",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 3,
+                                "value": "Admin",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 15,
+                                "value": "Database Admin",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 22,
+                                "value": "ATS User",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 26,
+                                "value": "PIM",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 31,
+                                "value": "Feat_Alternatives",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 32,
+                                "value": "Master Template Editing",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            },
+                            {
+                                "id": 41,
+                                "value": "Lixil_Spec_Booklet",
+                                "isFeature": false,
+                                "groupId": null,
+                                "groupName": null
+                            }
+                        ]
+                    },
+                    "createBy": 6863356,
+                    "deleted": false,
+                    "deletedBy": null,
+                    "email": "qa+st_ss@atsspec.com",
+                    "extension": null,
+                    "firm": {
+                        "id": 2368648,
+                        "childFirms": null,
+                        "companyAltName": "ATS",
+                        "companyName": "Allied Technical Solutions",
+                        "createdBy": null,
+                        "createdDate": "2019-03-10 21:43:51",
+                        "deleted": 0,
+                        "deletedBy": 0,
+                        "domain": "www.atsspec.com",
+                        "firmType": "Other",
+                        "firmTypeId": 9,
+                        "headOfficeAddress": "885 Milner Ave, Toronto, Ontario, M1B 5V8, Canada",
+                        "headOfficeId": 4179247,
+                        "isChildFirm": true,
+                        "isSuperFirm": false,
+                        "lastModified": "2021-04-27 23:37:27",
+                        "lastModifiedBy": 9135702,
+                        "logoImageId": "",
+                        "parentId": null,
+                        "parentName": null,
+                        "recommendationsScope": null,
+                        "shareContacts": true,
+                        "shareQuotes": true,
+                        "status": "active",
+                        "userCount": 153
+                    },
+                    "firmId": 2368648,
+                    "firstName": "QA",
+                    "fullName": "QA ST Special Automation",
+                    "imageId": "899692dbb68e321567687be2c7286975",
+                    "internalNo": null,
+                    "jobTitle": "d55196317620409082d960dcbd7bcd52",
+                    "lastAccessed": "2025-09-03 21:02:54",
+                    "lastModified": "2025-08-29 02:28:51",
+                    "lastModifiedBy": 6903871,
+                    "lastName": "ST Special Automation",
+                    "mobilePhone": "",
+                    "office": {
+                        "id": 4179247,
+                        "address1": "885 Milner Ave",
+                        "address2": "",
+                        "billToCustomer": null,
+                        "branchId": null,
+                        "createdBy": null,
+                        "createdDate": "2019-03-10 22:14:32",
+                        "deleted": 0,
+                        "deletedBy": 3329740,
+                        "fax": "(416) 250 5549",
+                        "firmId": 2368648,
+                        "headOffice": 1,
+                        "imageId": "f8657bfca891ad5e4bc36adaf2ea7d9d",
+                        "language": "En",
+                        "lastModified": "2021-04-27 23:37:27",
+                        "lastModifiedBy": 9135702,
+                        "location": {
+                            "address1": null,
+                            "address2": null,
+                            "city": {
+                                "id": 6167865,
+                                "label": null,
+                                "value": "Toronto"
+                            },
+                            "country": {
+                                "id": 6251999,
+                                "label": null,
+                                "value": "Canada"
+                            },
+                            "postalZip": null,
+                            "province": {
+                                "id": 6093943,
+                                "label": null,
+                                "value": "Ontario"
+                            }
+                        },
+                        "officeName": "Toronto Office",
+                        "phone": "(416) 250 5656",
+                        "postalZip": "M1B 5V8",
+                        "pricePrefix": null,
+                        "shipToCustomer": null,
+                        "status": "active",
+                        "tollfree": "1-800-245-1880",
+                        "userCount": 149
+                    },
+                    "officeId": 4179247,
+                    "officePhone": "",
+                    "password": null,
+                    "registerAppId": "42b28d28eb9ad6a",
+                    "registerAppName": "Spec Tool",
+                    "registerDate": "2023-04-14 14:06:15",
+                    "salutation": "",
+                    "status": "active",
+                    "userTypeId": null,
+                    "username": "qa+st_ss@atsspec.com",
+                    "verified": true
+                }
+            ]
+        }
+    }
+}

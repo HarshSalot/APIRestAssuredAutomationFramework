@@ -1,5 +1,6 @@
 package context;
 
+import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 import io.restassured.response.Response;
@@ -22,7 +23,15 @@ public class TestContext {
     private Map<String, RequestSpecification> reqSpecs = new HashMap<>();
 
     public RequestSpecification getRequestSpec(String serviceName){
-        return reqSpecs.computeIfAbsent(serviceName, RequestBuilder::getRequestSpec);
+        return reqSpecs.computeIfAbsent(serviceName, t -> {
+			try {
+				return RequestBuilder.getRequestSpec(t);
+			} catch (FileNotFoundException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			return req;
+		});
     }  
     
     public String getUniqueNumber() {
