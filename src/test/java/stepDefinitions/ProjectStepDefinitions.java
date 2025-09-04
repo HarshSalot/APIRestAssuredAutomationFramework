@@ -3,6 +3,8 @@ package stepDefinitions;
 import static io.restassured.RestAssured.given;
 import responses.ResponseValidator;
 import io.cucumber.java.en.*;
+import requests.APIresources;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -38,7 +40,8 @@ public class ProjectStepDefinitions {
 
     @When("user calls {string} API with {string} method at endpoint {string}")
     public void user_calls_api_with_method(String apiName, String method, String endPoint) throws Exception {
-    	context.rawResponse = ApiExecutor.execute(context, method, endPoint, apiName);
+    	APIresources resource = APIresources.valueOf(endPoint);
+    	context.rawResponse = ApiExecutor.execute(context, method, resource.getResource(), apiName);
     }  
 
     @Then("the ProjectPage API call is successful with status code {int}")
@@ -64,8 +67,9 @@ public class ProjectStepDefinitions {
     
     @When("user calls {string} API with {string} method at endpoint {string} and projectId {string}")
     public void user_calls_api_with_method_at_endpoint_and_project_id(String apiName, String method, String endPoint, String projectId) throws Exception {
+    	APIresources resource = APIresources.valueOf(endPoint);
     	projectId=TestContext.projectId;
-    	context.rawResponse = ApiExecutor.execute(context, method, endPoint+projectId, apiName);
+    	context.rawResponse = ApiExecutor.execute(context, method, resource.getResource()+projectId, apiName);
     }
 
     @Then("verify project is deleted successfully")

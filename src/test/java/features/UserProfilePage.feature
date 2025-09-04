@@ -8,7 +8,7 @@ Feature: User Profile API Validation
   @userProfilePageTest @smokeTest
   Scenario: User verify profile details
     Given user is authenticated with valid token
-    When user with id "6903871" in UserProfilePage calls "contact" API with "get" method at endpoint "/user/"
+    When user with id "6903871" in UserProfilePage calls "contact" API with "get" method at endpoint "getUserProfile"
     Then the UserProfilePage API response status code should be 200
     And response body should contain "firstName" as "QA"
     And response body should contain "lastName" as "ST Special Automation"

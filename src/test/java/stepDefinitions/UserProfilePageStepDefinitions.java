@@ -5,6 +5,7 @@ import static org.junit.Assert.*;
 import context.TestContext;
 import executors.ApiExecutor;
 import io.cucumber.java.en.*;
+import requests.APIresources;
 import responses.ResponseValidator;
 
 public class UserProfilePageStepDefinitions {
@@ -23,8 +24,8 @@ public class UserProfilePageStepDefinitions {
 
 	@When("user with id {string} in UserProfilePage calls {string} API with {string} method at endpoint {string}")
 	public void user_with_id_in_user_profile_page_calls_api_with_method_at_endpoint(String userId, String apiName, String method, String endPoint) throws Exception {
-		context.rawResponse = ApiExecutor.execute(context, method, endPoint+userId, apiName);
-//	    context.responseString = context.rawResponse.then().log().all().extract().asString();
+		APIresources resource = APIresources.valueOf(endPoint);
+		context.rawResponse = ApiExecutor.execute(context, method, resource.getResource()+userId, apiName);
 	}
 
 	@Then("the UserProfilePage API response status code should be {int}")

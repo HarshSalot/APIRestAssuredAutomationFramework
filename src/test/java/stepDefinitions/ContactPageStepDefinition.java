@@ -10,6 +10,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import pojo.ContactPayload;
+import requests.APIresources;
 import responses.ResponseValidator;
 import utils.PayloadUtils;
 
@@ -31,7 +32,8 @@ public class ContactPageStepDefinition {
 
 	@When("user in ContactPage calls {string} API with {string} method at endpoint {string}")
 	public void user_in_ContactPage_calls_api_with_method_at_endpoint(String apiName, String method, String endPoint) throws Exception {
-		context.rawResponse = ApiExecutor.execute(context, method, endPoint, apiName);
+		APIresources resource = APIresources.valueOf(endPoint);
+		context.rawResponse = ApiExecutor.execute(context, method, resource.getResource(), apiName);
 	}
 	
 	@Then("the ContactPage API call got success with status code {int}")
@@ -59,8 +61,9 @@ public class ContactPageStepDefinition {
 
 	@When("user in ContactPage calls {string} API with {string} method at endpoint {string} and contactId {string}")
 	public void user_in_contact_page_calls_api_with_method_at_endpoint_and_contact_id(String apiName, String method, String endPoint, String contactId) throws Exception {
+		APIresources resource = APIresources.valueOf(endPoint);
 		contactId=TestContext.contactId;
-    	context.rawResponse = ApiExecutor.execute(context, method, endPoint+contactId, apiName);
+    	context.rawResponse = ApiExecutor.execute(context, method, resource.getResource()+contactId, apiName);
 	}
 
 	@Then("verify contact is updated")

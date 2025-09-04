@@ -7,6 +7,7 @@ import executors.ApiExecutor;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import requests.APIresources;
 import responses.ResponseValidator;
 import utils.PayloadUtils;
 
@@ -30,7 +31,8 @@ public class SpecPageStepDefinition {
 
     @When("user in SpecPage calls {string} API with {string} method at endpoint {string}")
     public void user_in_spec_page_calls_api_with_method_at_endpoint(String apiName, String method, String endPoint) throws Exception {
-    	context.rawResponse = ApiExecutor.execute(context, method, endPoint, apiName);
+    	APIresources resource = APIresources.valueOf(endPoint);
+    	context.rawResponse = ApiExecutor.execute(context, method, resource.getResource(), apiName);
 	}
     
     @Then("the SpecPage API call success with status code {int}")
@@ -62,8 +64,9 @@ public class SpecPageStepDefinition {
 
     @When("user in SpecPage calls {string} API with {string} method at endpoint {string} and specId {string}")
     public void user_in_spec_page_calls_api_with_method_at_endpoint_and_spec_id(String apiName, String method, String endPoint, String specId) throws Exception {
+    	APIresources resource = APIresources.valueOf(endPoint);
     	specId=TestContext.specId;
-    	context.rawResponse = ApiExecutor.execute(context, method, endPoint+specId, apiName);
+    	context.rawResponse = ApiExecutor.execute(context, method, resource.getResource()+specId, apiName);
     }
 
     @Then("verify the updated spec name")

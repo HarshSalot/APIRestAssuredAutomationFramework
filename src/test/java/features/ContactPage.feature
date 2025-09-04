@@ -8,7 +8,7 @@ Feature: Contact page scenario
     | ownerId          | 4179247     |
     | ownerType        | office      |
     | setAsDefaultEmail| false       |
-    When user in ContactPage calls "contact" API with "post" method at endpoint "/contact"
+    When user in ContactPage calls "contact" API with "post" method at endpoint "addContact"
     Then  the ContactPage API call got success with status code 200
     And get the ID from the response
     And verify the contact name
@@ -16,20 +16,20 @@ Feature: Contact page scenario
   @hold
   Scenario: User search  a contact
     Given Search contact "My Contact"
-    When user in ContactPage calls "contact" API with "get" method at endpoint "/contact"
+    When user in ContactPage calls "contact" API with "get" method at endpoint "actionOnContact"
     Then  the ContactPage API call got success with status code 200
     And get the "userID""firmID""OfficeID" from the response
     
   @smokeTest @contactPageTest
   Scenario: User update an existing contact
     Given Update contact with new details by updating name "UniqueIDupdated"
-    When user in ContactPage calls "contact" API with "patch" method at endpoint "/contact/" and contactId "contactId"
+    When user in ContactPage calls "contact" API with "patch" method at endpoint "actionOnContact" and contactId "contactId"
     Then  the ContactPage API call got success with status code 200
     And verify contact is updated
 
  @smokeTest @contactPageTest
   Scenario: User delete an existing contact
     Given  Delete contact setup
-    When user in ContactPage calls "contact" API with "delete" method at endpoint "/contact/" and contactId "contactId"
+    When user in ContactPage calls "contact" API with "delete" method at endpoint "actionOnContact" and contactId "contactId"
     Then  the ContactPage API call got success with status code 200
     And verify contact is deleted successfully
